@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+<body style="background-color:#E6E6FA">
   <head>
     <meta charset="utf-8">
     <script type="text/javascript" src='./js/bundle.js'></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <title>Rick and Morty Characters</title>
+    <img src="./images/Rick_and_Morty_logo.png" alt="Rick and Morty Logo" class="center">
     </head>
     <body>
-      <h1>Character List</h1>
-      <label>Select a character: </label>
+      <div class="select-style">
+      <label>Find out more about your favourite character: </label>
       <select id="character">
         <option disabled selected></option>
       </select>
+    </div>
       <div id="character-info"></div>
+      <div class="flip-card">
+  <div class="flip-card-inner">
+    <div id="div1" class="flip-card-front">
+    </div>
+    <div id="div2" class="flip-card-back"></div>
+  </div>
+</div>
     </body>
 </html>

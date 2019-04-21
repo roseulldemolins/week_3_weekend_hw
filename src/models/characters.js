@@ -24,7 +24,6 @@ class Characters {
   bindEvents(){
     PubSub.subscribe('SelectView:change', (event) => {
       const selectedIndex = event.detail;
-      console.log("CHARACTERS", event.detail);
       this.publishCharacterDetail(selectedIndex);
     });
   };
